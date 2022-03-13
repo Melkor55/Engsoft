@@ -11,3 +11,6 @@ Ulterior, dupa completarea profilului, utilizatorul va fi redirectionat pe pagin
 # Administratorul
 
 Dupa autentificare, adminul poate adauga, modifica sau sterge retetele ce se vor afla in rubrica "Ce vreau sa mananc saptamana aceasta?"
+
+# Figma
+https://www.figma.com/file/gxZvx1yHO30MZWs2ZtS9u7/Untitled?node-id=0%3A1
