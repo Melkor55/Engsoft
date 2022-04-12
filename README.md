@@ -13,13 +13,13 @@ Ulterior, dupa completarea profilului, utilizatorul va fi redirectionat pe pagin
 Dupa autentificare, adminul poate adauga, modifica sau sterge retetele ce se vor afla in rubrica "Ce vreau sa mananc saptamana aceasta?"
 
 
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 # Dark Mode(+)
 
 Pentru a proteja atât ochii utilizatorilor cât și a adminilor, am decis să adăugăm feature-ul de dark mode aplicației noastre. Prin acesta și ochii se vor alătura papilelor gustative pentru a ne mulțumi. 
 
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
 # Figma
