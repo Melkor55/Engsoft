@@ -13,7 +13,7 @@ Ulterior, dupa completarea profilului, utilizatorul va fi redirectionat pe pagin
 Dupa autentificare, adminul poate adauga, modifica sau sterge retetele ce se vor afla in rubrica "Ce vreau sa mananc saptamana aceasta?"
 
 
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 # Dark Mode(+)
 
