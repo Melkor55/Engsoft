@@ -24,3 +24,8 @@ Pentru a proteja atât ochii utilizatorilor cât și a adminilor, am decis să a
 
 # Figma
 https://www.figma.com/file/gxZvx1yHO30MZWs2ZtS9u7/Untitled?node-id=0%3A1
+
+
+# Poate ajuta :)
+https://www.youtube.com/watch?v=8EcEk2pVt0A&list=PL5jb9EteFAOAO16th6HQa76-pdyT3y4L5
+https://www.youtube.com/watch?v=5vOCBEG4-gY&list=PL5jb9EteFAOCodvgGo6Az1r2A8SRp0Wun
