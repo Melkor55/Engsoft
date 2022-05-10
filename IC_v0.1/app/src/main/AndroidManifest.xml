@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IC_00">
         <activity
+            android:name=".LikedFoods"
+            android:exported="false" android:parentActivityName=".Register"/>
+
+        <activity
             android:name=".Register"
             android:exported="false"
             android:parentActivityName=".MainActivity">

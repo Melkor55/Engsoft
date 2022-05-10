@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Projects/AndroidStudio/Engsoft/IC_v0.1/app/src/main/res/drawable/login_button_backgrounds.xml" value="0.1" />
+        <entry key="..\:/Projects/AndroidStudio/Engsoft/IC_v0.1/app/src/main/res/drawable/register_button_background.xml" value="0.1" />
+        <entry key="..\:/Projects/AndroidStudio/Engsoft/IC_v0.1/app/src/main/res/drawable/violet_circle.xml" value="0.1" />
+        <entry key="..\:/Projects/AndroidStudio/Engsoft/IC_v0.1/app/src/main/res/layout/activity_liked_foods.xml" value="0.11302083333333333" />
+        <entry key="..\:/Projects/AndroidStudio/Engsoft/IC_v0.1/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Projects/AndroidStudio/Engsoft/IC_v0.1/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/Projects/AndroidStudio/Engsoft/IC_v0.1/app/src/main/res/layout/register_activity.xml" value="0.11302083333333333" />
+      </map>
+    </option>
+  </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="Android API 19 Platform" project-jdk-type="Android SDK">
     <output url="file://$PROJECT_DIR$/build/classes" />

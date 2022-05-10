@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/violetCircleUp"
         android:layout_width="400dp"
         android:layout_height="0dp"
         android:background="@drawable/violet_circle"
@@ -19,6 +20,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
+        android:id="@+id/violetCircleDown"
         android:layout_width="400dp"
         android:layout_height="0dp"
         android:background="@drawable/violet_circle"
@@ -31,6 +33,7 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <TextView
+        android:id="@+id/greyCircle"
         android:layout_width="0dp"
         android:layout_height="150dp"
         app:layout_constraintDimensionRatio="1:1"
@@ -59,7 +62,7 @@
         tools:ignore="TextContrastCheck" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/usernameField"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#c4c4c4"
@@ -75,7 +78,7 @@
         app:layout_constraintVertical_bias="0.669" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/passwordField"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#c4c4c4"
