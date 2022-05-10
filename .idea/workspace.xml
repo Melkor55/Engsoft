@@ -9,18 +9,24 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36e2b581-0c17-4e97-892c-f9a19b69bece" name="Default Changelist" comment="Working first pages">
+    <list default="true" id="36e2b581-0c17-4e97-892c-f9a19b69bece" name="Default Changelist" comment="Liked foods page added">
+      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/DislikedFoods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/drawable/add_button.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/drawable/gray_rectangle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/drawable/hexagon.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_disliked_foods.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_home_page.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/add_but.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Engsoft - Copy" beforeDir="false" afterPath="$PROJECT_DIR$/../Engsoft - Copy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IC_v0.1/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/drawable/round_button_shape.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_liked_foods.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_liked_foods.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_register.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/register_activity.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/values/strings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Engsoft_1" beforeDir="false" afterPath="$PROJECT_DIR$/../Engsoft_1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyApplication" beforeDir="false" afterPath="$PROJECT_DIR$/../MyApplication" afterDir="false" />
     </list>
@@ -66,12 +72,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="resourceFile" />
         <option value="valueResourceFile" />
+        <option value="layoutResourceFile" />
+        <option value="resourceFile" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="secondBranch" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="28yyYfm6LmbzQyO43JCQtBvGqC5" />
@@ -84,6 +96,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/IC_v0.1" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -98,6 +111,9 @@
     <option name="LAST_EDITED_BUILD_TYPE" value="release" />
   </component>
   <component name="RecentsManager">
+    <key name="android.template.-520027725">
+      <recent name="com.example.ic_00" />
+    </key>
     <key name="android.template.1753848699">
       <recent name="com.example.ic_00" />
     </key>

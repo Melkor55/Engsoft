@@ -3,12 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Projects/AndroidStudio/Engsoft/IC_v0.1/app/src/main/res/drawable/add_but.xml" value="0.124" />
+        <entry key="..\:/Projects/AndroidStudio/Engsoft/IC_v0.1/app/src/main/res/drawable/add_button.xml" value="0.124" />
+        <entry key="..\:/Projects/AndroidStudio/Engsoft/IC_v0.1/app/src/main/res/drawable/gray_circle.xml" value="0.124" />
+        <entry key="..\:/Projects/AndroidStudio/Engsoft/IC_v0.1/app/src/main/res/drawable/gray_rectangle.xml" value="0.124" />
+        <entry key="..\:/Projects/AndroidStudio/Engsoft/IC_v0.1/app/src/main/res/drawable/hexagon.xml" value="0.221" />
         <entry key="..\:/Projects/AndroidStudio/Engsoft/IC_v0.1/app/src/main/res/drawable/login_button_backgrounds.xml" value="0.1" />
         <entry key="..\:/Projects/AndroidStudio/Engsoft/IC_v0.1/app/src/main/res/drawable/register_button_background.xml" value="0.1" />
         <entry key="..\:/Projects/AndroidStudio/Engsoft/IC_v0.1/app/src/main/res/drawable/violet_circle.xml" value="0.1" />
-        <entry key="..\:/Projects/AndroidStudio/Engsoft/IC_v0.1/app/src/main/res/layout/activity_liked_foods.xml" value="0.11302083333333333" />
+        <entry key="..\:/Projects/AndroidStudio/Engsoft/IC_v0.1/app/src/main/res/layout/activity_disliked_foods.xml" value="0.25416666666666665" />
+        <entry key="..\:/Projects/AndroidStudio/Engsoft/IC_v0.1/app/src/main/res/layout/activity_home_page.xml" value="0.24344569288389514" />
+        <entry key="..\:/Projects/AndroidStudio/Engsoft/IC_v0.1/app/src/main/res/layout/activity_liked_foods.xml" value="0.136" />
         <entry key="..\:/Projects/AndroidStudio/Engsoft/IC_v0.1/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Projects/AndroidStudio/Engsoft/IC_v0.1/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/Projects/AndroidStudio/Engsoft/IC_v0.1/app/src/main/res/layout/add_but.xml" value="0.11302083333333333" />
         <entry key="..\:/Projects/AndroidStudio/Engsoft/IC_v0.1/app/src/main/res/layout/register_activity.xml" value="0.11302083333333333" />
       </map>
     </option>

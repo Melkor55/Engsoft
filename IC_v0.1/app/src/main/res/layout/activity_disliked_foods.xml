@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LikedFoods">
+    tools:context=".DislikedFoods">
 
     <TextView
         android:id="@+id/grayRectangle"
@@ -36,7 +36,7 @@
         android:id="@+id/textView2"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="Ce alimente imi plac"
+        android:text="Ce alimente imi displac"
         android:textColor="@color/white"
         android:textSize="28sp"
         android:textAlignment="textEnd"
@@ -64,12 +64,4 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.966"
         app:shapeAppearanceOverlay="@style/leaf" />
-
-    <include
-        layout="@layout/add_but"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="674dp" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

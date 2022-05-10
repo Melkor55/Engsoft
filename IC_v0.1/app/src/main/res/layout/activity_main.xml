@@ -102,6 +102,7 @@
         app:shapeAppearanceOverlay="@style/leaf"
         android:text="Login"
         android:textSize="20sp"
+        android:inputType="textCapWords"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -117,7 +118,7 @@
         app:backgroundTint="@null"
         android:text="Register"
         android:textSize="20sp"
-
+        android:inputType="textCapWords"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintLeft_toLeftOf="parent"

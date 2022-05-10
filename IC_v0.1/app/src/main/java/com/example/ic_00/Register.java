@@ -21,7 +21,7 @@ public class Register extends AppCompatActivity {
             @Override
             public void onClick(View view)
             {
-                Intent intent = new Intent(Register.this, LikedFoods.class);
+                Intent intent = new Intent(Register.this, HomePage.class);
                 startActivity(intent);
             }
         });
