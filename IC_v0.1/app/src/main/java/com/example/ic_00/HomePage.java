@@ -11,6 +11,9 @@ public class HomePage extends AppCompatActivity {
 
     private Button LikedFoodsButton;
     private Button DislikedFoodsButton;
+    private Button InMyFridgeButton;
+    private Button WhatToEatButton;
+    private Button MyListButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +36,36 @@ public class HomePage extends AppCompatActivity {
             public void onClick(View view)
             {
                 Intent intent = new Intent(HomePage.this, DislikedFoods.class);
+                startActivity(intent);
+            }
+        });
+
+        InMyFridgeButton = (Button) findViewById(R.id.inMyFridge_button);
+        InMyFridgeButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view)
+            {
+                Intent intent = new Intent(HomePage.this, InMyFridge.class);
+                startActivity(intent);
+            }
+        });
+
+        WhatToEatButton = (Button) findViewById(R.id.whatToEat_button);
+        WhatToEatButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view)
+            {
+                Intent intent = new Intent(HomePage.this, WhatToEat.class);
+                startActivity(intent);
+            }
+        });
+
+        MyListButton = (Button) findViewById(R.id.myList_button);
+        MyListButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view)
+            {
+                Intent intent = new Intent(HomePage.this, MyList.class);
                 startActivity(intent);
             }
         });

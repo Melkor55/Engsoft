@@ -4,7 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LikedFoods">
+    tools:context=".WhatToEat">
+
+
+    <Button
+        android:id="@+id/logout_button"
+        android:layout_width="103dp"
+        android:layout_height="40dp"
+        android:background="@drawable/register_button_background"
+        android:text="Logout"
+        android:textSize="14sp"
+        app:backgroundTint="@null"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.014" />
 
     <TextView
         android:id="@+id/grayRectangle"
@@ -36,7 +53,7 @@
         android:id="@+id/textView2"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="Ce alimente imi plac"
+        android:text="What to eat ?"
         android:textColor="@color/white"
         android:textSize="28sp"
         android:textAlignment="textEnd"
@@ -65,11 +82,5 @@
         app:layout_constraintVertical_bias="0.966"
         app:shapeAppearanceOverlay="@style/leaf" />
 
-    <include
-        layout="@layout/add_but"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="674dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

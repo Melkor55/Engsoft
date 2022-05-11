@@ -8,8 +8,21 @@
 
 
     <TextView
-        android:layout_width="400dp"
-        android:layout_height="320dp"
+        android:id="@+id/grayRectangle"
+        android:layout_width="300dp"
+        android:layout_height="0dp"
+        android:background="@drawable/gray_rectangle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="9:16"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.654" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="0dp"
         android:background="@drawable/violet_circle"
 
         app:layout_constraintBottom_toBottomOf="parent"
@@ -21,46 +34,137 @@
         app:layout_constraintVertical_bias="0.033" />
 
     <TextView
-        android:layout_width="400dp"
-        android:layout_height="320dp"
-        android:background="@drawable/violet_circle"
+        android:id="@+id/textView2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Hello,\n   $Username$ !"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintDimensionRatio="1:1"
-        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.961" />
+
+        app:layout_constraintVertical_bias="0.136"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintHorizontal_bias="0.021"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.015"
+        android:src="@drawable/pngegg"
+        android:contentDescription="My account" />
+
+    <Button
+        android:id="@+id/logout_button"
+        android:layout_width="103dp"
+        android:layout_height="40dp"
+        android:background="@drawable/register_button_background"
+        android:text="Logout"
+        android:textSize="14sp"
+        app:backgroundTint="@null"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.014" />
 
     <Button
         android:id="@+id/likedFoods_button"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:background="@drawable/login_button_backgrounds"
-        app:backgroundTint="@null"
+        android:background="@drawable/register_button_background"
         android:text="Liked Foods"
         android:textSize="20sp"
+        app:backgroundTint="@null"
+        android:inputType="textCapWords"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.949" />
+        app:layout_constraintVertical_bias="0.477" />
 
     <Button
         android:id="@+id/dislikedFoods_button"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:background="@drawable/login_button_backgrounds"
+        android:background="@drawable/register_button_background"
         android:text="Disliked Foods"
         android:textSize="20sp"
         app:backgroundTint="@null"
+        android:inputType="textCapWords"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.057" />
+        app:layout_constraintVertical_bias="0.603" />
+
+    <Button
+        android:id="@+id/inMyFridge_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/register_button_background"
+        android:text="In My Fridge"
+        android:textSize="20sp"
+        app:backgroundTint="@null"
+        android:inputType="textCapWords"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.708" />
+
+    <Button
+        android:id="@+id/whatToEat_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/register_button_background"
+        android:text="What to eat?"
+        android:textSize="20sp"
+        app:backgroundTint="@null"
+        android:inputType="textCapWords"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.793" />
+
+    <Button
+        android:id="@+id/myList_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/register_button_background"
+        android:text="My list"
+        android:textSize="20sp"
+        app:backgroundTint="@null"
+        android:inputType="textCapWords"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.881" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
