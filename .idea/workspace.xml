@@ -9,22 +9,26 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36e2b581-0c17-4e97-892c-f9a19b69bece" name="Default Changelist" comment="Home page added(and disliked foods)">
-      <change afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/InMyFridge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/MyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/WhatToEat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/drawable-v24/pngegg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_in_my_fridge.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_my_list.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_what_to_eat.xml" afterDir="false" />
+    <list default="true" id="36e2b581-0c17-4e97-892c-f9a19b69bece" name="Default Changelist" comment="Home page child pages added">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/MyDatabaseHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/drawable/add_icon.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/xml/network_security_config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Engsoft - Copy" beforeDir="false" afterPath="$PROJECT_DIR$/../Engsoft - Copy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IC_v0.1/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_home_page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_home_page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/Register.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_liked_foods.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_liked_foods.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_register.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IC_v0.1/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/settings.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Engsoft_1" beforeDir="false" afterPath="$PROJECT_DIR$/../Engsoft_1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyApplication" beforeDir="false" afterPath="$PROJECT_DIR$/../MyApplication" afterDir="false" />
     </list>
@@ -33,7 +37,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\alexh\.android\avd\Pixel_2_API_19.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\alexh\.android\avd\Pixel_2_API_24.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/IC_v0.1">
       <ProjectState />
@@ -70,9 +74,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="valueResourceFile" />
         <option value="layoutResourceFile" />
         <option value="resourceFile" />
+        <option value="Class" />
+        <option value="valueResourceFile" />
       </list>
     </option>
   </component>
@@ -115,6 +120,12 @@
     </key>
     <key name="android.template.-520027725">
       <recent name="com.example.ic_00" />
+    </key>
+    <key name="android.template.-662203563">
+      <recent name="com.example.ic_00" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Projects\AndroidStudio\Engsoft\IC_v0.1\app\src\main\res\xml" />
     </key>
     <key name="android.template.-788418779">
       <recent name="com.example.ic_00" />
@@ -207,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652220310097</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Home page child pages added">
+      <created>1652310375636</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1652310375636</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -237,6 +255,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Working first pages" />
     <MESSAGE value="Home page added(and disliked foods)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Home page added(and disliked foods)" />
+    <MESSAGE value="Home page child pages added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Home page child pages added" />
   </component>
 </project>
