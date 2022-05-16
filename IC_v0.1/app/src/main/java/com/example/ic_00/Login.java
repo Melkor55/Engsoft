@@ -69,7 +69,7 @@ public class Login extends AppCompatActivity {
                         data[3] = "1234";
                          */
                             //  url : http://current_ip_adress(ip_config)/the_folder_where_signup.php_is_stored/signup.php
-                            PutData putData = new PutData("http://192.168.1.8/LoginRegister/login.php", "POST", field, data);
+                            PutData putData = new PutData("http://192.168.1.113/LoginRegister/login.php", "POST", field, data);
                             if (putData.startPut()) {
                                 if (putData.onComplete()) {
                                     String result = putData.getResult();

@@ -1,5 +1,7 @@
 package com.example.ic_00;
 import java.io.*;
+import java.net.UnknownHostException;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 //import android.annotation.SuppressLint;
@@ -83,7 +85,15 @@ public class Register extends AppCompatActivity {
                         data[3] = "1234";
                          */
                             //  url : http://current_ip_adress(ip_config)/the_folder_where_signup.php_is_stored/signup.php
-                            PutData putData = new PutData("http://192.168.1.8/LoginRegister/signup.php", "POST", field, data);
+                            try {
+                                IPAdress.setMyIP();
+                            } catch (UnknownHostException e) {
+                                e.printStackTrace();
+                            }
+
+                            String URL = "http://" +IPAdress.getMyIP()+ "/LoginRegister/signup.php";
+                            System.out.println(">>>"+URL);
+                            PutData putData = new PutData("http://192.168.1.113/LoginRegister/signup.php", "POST", field, data);
                             if (putData.startPut()) {
                                 if (putData.onComplete()) {
                                     progressBar.setVisibility(View.GONE);
