@@ -7,10 +7,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 public class LikedFoods extends AppCompatActivity
 {
 
     private Button AddButton;
+    private FloatingActionButton AddButton2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,7 +33,23 @@ public class LikedFoods extends AppCompatActivity
             startActivity(intent);
         }
     });
+
+    AddButton2 = findViewById(R.id.addRecipe);
+    AddButton2.setOnClickListener(new View.OnClickListener()
+    {
+
+        @Override
+        public void onClick(View view)
+        {
+
+
+            Intent intent = new Intent(LikedFoods.this, AddRecipe.class);
+            startActivity(intent);
+        }
+    });
     }
 
 
 }
+
+

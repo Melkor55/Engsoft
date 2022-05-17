@@ -9,17 +9,20 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36e2b581-0c17-4e97-892c-f9a19b69bece" name="Default Changelist" comment="Solving a few problems">
-      <change afterPath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/AddLikedFoods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_add_liked_foods.xml" afterDir="false" />
+    <list default="true" id="36e2b581-0c17-4e97-892c-f9a19b69bece" name="Default Changelist" comment="Adding liked foods database">
+      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/AddDislikedFoods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/AddRecipe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_add_disliked_foods.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_add_recipe.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Engsoft - Copy" beforeDir="false" afterPath="$PROJECT_DIR$/../Engsoft - Copy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/DislikedFoods.java" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/DislikedFoods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/LikedFoods.java" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/LikedFoods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_add_liked_foods.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_add_liked_foods.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_disliked_foods.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_disliked_foods.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_liked_foods.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_liked_foods.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Engsoft_1" beforeDir="false" afterPath="$PROJECT_DIR$/../Engsoft_1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyApplication" beforeDir="false" afterPath="$PROJECT_DIR$/../MyApplication" afterDir="false" />
@@ -126,6 +129,9 @@
       <recent name="com.example.ic_00" />
     </key>
     <key name="android.template.-1681101314">
+      <recent name="com.example.ic_00" />
+    </key>
+    <key name="android.template.2138994577">
       <recent name="com.example.ic_00" />
     </key>
   </component>
@@ -285,6 +291,7 @@
     <MESSAGE value="Home page child pages added" />
     <MESSAGE value="Working Register and Login activities added&#10;-linked to a basic MySQL database(not online yet)" />
     <MESSAGE value="Solving a few problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solving a few problems" />
+    <MESSAGE value="Adding liked foods database" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding liked foods database" />
   </component>
 </project>
