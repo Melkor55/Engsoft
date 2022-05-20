@@ -9,21 +9,17 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36e2b581-0c17-4e97-892c-f9a19b69bece" name="Default Changelist" comment="Adding liked foods database">
-      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/AddDislikedFoods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/AddRecipe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_add_disliked_foods.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_add_recipe.xml" afterDir="false" />
+    <list default="true" id="36e2b581-0c17-4e97-892c-f9a19b69bece" name="Default Changelist" comment="Adding disliked foods recipes databases">
+      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/Aliment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/AlimentAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/liked_food_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/test/java/com/example/ic_00/Config.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Engsoft - Copy" beforeDir="false" afterPath="$PROJECT_DIR$/../Engsoft - Copy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/DislikedFoods.java" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/DislikedFoods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IC_v0.1/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/LikedFoods.java" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/LikedFoods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_add_liked_foods.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_add_liked_foods.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_disliked_foods.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_disliked_foods.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_liked_foods.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_liked_foods.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Engsoft_1" beforeDir="false" afterPath="$PROJECT_DIR$/../Engsoft_1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyApplication" beforeDir="false" afterPath="$PROJECT_DIR$/../MyApplication" afterDir="false" />
     </list>
@@ -69,9 +65,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="layoutResourceFile" />
         <option value="resourceFile" />
         <option value="valueResourceFile" />
+        <option value="layoutResourceFile" />
         <option value="Class" />
       </list>
     </option>
@@ -110,6 +106,9 @@
     <option name="LAST_EDITED_BUILD_TYPE" value="release" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.ic_00" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Projects\AndroidStudio\Engsoft\IC_v0.1\app\src\main\res\drawable-v24" />
     </key>
@@ -258,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652739662916</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Adding disliked foods recipes databases">
+      <created>1652829397657</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1652829397658</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -292,6 +298,7 @@
     <MESSAGE value="Working Register and Login activities added&#10;-linked to a basic MySQL database(not online yet)" />
     <MESSAGE value="Solving a few problems" />
     <MESSAGE value="Adding liked foods database" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding liked foods database" />
+    <MESSAGE value="Adding disliked foods recipes databases" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding disliked foods recipes databases" />
   </component>
 </project>
