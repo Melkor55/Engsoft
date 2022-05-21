@@ -62,7 +62,8 @@ public class AddRecipe extends AppCompatActivity {
                             data[2] = description;
                             data[3] = cooking_time;
 
-                            PutData putData = new PutData("http://192.168.1.102/LikedFoods/addRecipe.php", "POST", field, data);
+                            //PutData putData = new PutData("http://192.168.1.102/LikedFoods/addRecipe.php", "POST", field, data);
+                            PutData putData = new PutData(new Database_URL("/LikedFoods", "/addRecipe.php").getURL(), "POST", field, data);
                             if (putData.startPut()) {
                                 if (putData.onComplete()) {
                                     String result = putData.getResult();

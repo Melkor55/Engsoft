@@ -93,7 +93,8 @@ public class Register extends AppCompatActivity {
 
                             String URL = "http://" +IPAdress.getMyIP()+ "/LoginRegister/signup.php";
                             System.out.println(">>>"+URL);
-                            PutData putData = new PutData("http://192.168.1.102/LoginRegister/signup.php", "POST", field, data);
+                            //PutData putData = new PutData("http://192.168.1.102/LoginRegister/signup.php", "POST", field, data);
+                            PutData putData = new PutData(new Database_URL("/LoginRegister", "/signup.php").getURL(), "POST", field, data);
                             if (putData.startPut()) {
                                 if (putData.onComplete()) {
                                     progressBar.setVisibility(View.GONE);

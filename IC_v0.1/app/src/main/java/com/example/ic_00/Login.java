@@ -15,6 +15,10 @@ import android.widget.Toast;
 
 import com.vishnusivadas.advanced_httpurlconnection.PutData;
 
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
+
 public class Login extends AppCompatActivity {
     EditText textInputEditTextUsername, textInputEditTextPassword;
     Button loginButton;
@@ -69,8 +73,29 @@ public class Login extends AppCompatActivity {
                         data[2] = "anaaaa";
                         data[3] = "1234";
                          */
+/*
+                            Runtime runtime = Runtime.getRuntime();
+                            try {
+                                Process p1 = runtime.exec("cmd /c start getIP.bat");
+                                InputStream is = p1.getInputStream();
+                                int i = 0;
+                                while( (i = is.read() ) != -1) {
+                                    System.out.print((char)i);
+                                }
+                            } catch(IOException ioException) {
+                                System.out.println(ioException.getMessage() );
+                            }
+
+*/
+                            /*
+                            String header = "http://" ;
+                            String ip = getIP.getIp();
+                            String folder = "/LoginRegister" ;
+                            String phpFile = "/login.php";
+                            String URL = header + ip + folder + phpFile ;
+                            */
                             //  url : http://current_ip_adress(ip_config)/the_folder_where_signup.php_is_stored/signup.php
-                            PutData putData = new PutData("http://192.168.1.102/LoginRegister/login.php", "POST", field, data);
+                            PutData putData = new PutData(new Database_URL("/LoginRegister","/login.php").getURL(), "POST", field, data);
                             if (putData.startPut()) {
                                 if (putData.onComplete()) {
                                     String result = putData.getResult();

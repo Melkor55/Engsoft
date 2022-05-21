@@ -54,7 +54,8 @@ public class AddDislikedFoods extends AppCompatActivity {
                             //  url : http://current_ip_adress(ip_config)/the_folder_where_signup.php_is_stored/signup.php
                             String URL = "http://" +IPAdress.getMyIP()+ "/LoginRegister/signup.php";
                             System.out.println(">>>"+URL);
-                            PutData putData = new PutData("http://192.168.1.102/LikedFoods/addDislikedFood.php", "POST", field, data);
+                            //PutData putData = new PutData("http://192.168.1.102/LikedFoods/addDislikedFood.php", "POST", field, data);
+                            PutData putData = new PutData(new Database_URL("/LikedFoods", "/addDislikedFood.php").getURL(), "POST", field, data);
                             if (putData.startPut()) {
                                 if (putData.onComplete()) {
                                     String result = putData.getResult();

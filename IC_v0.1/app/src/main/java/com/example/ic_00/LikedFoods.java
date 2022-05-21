@@ -117,7 +117,8 @@ public class LikedFoods extends AppCompatActivity
 
     }
     private void getData(){
-        StringRequest stringRequest = new StringRequest("http://192.168.1.102/LikedFoods/getFood.php",
+        //StringRequest stringRequest = new StringRequest("http://192.168.1.102/LikedFoods/getFood.php",
+        StringRequest stringRequest =  new StringRequest(new Database_URL("/LikedFoods","/getFood.php").getURL(),
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
