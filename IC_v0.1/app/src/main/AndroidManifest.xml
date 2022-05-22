@@ -11,6 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IC_00">
         <activity
+            android:name=".AddFoodInMyList"
+            android:exported="false" />
+        <activity
             android:name=".AddFoodInFridge"
             android:exported="false" />
         <activity

@@ -4,37 +4,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MyList">
-
-
-    <Button
-        android:id="@+id/logout_button"
-        android:layout_width="103dp"
-        android:layout_height="40dp"
-        android:background="@drawable/register_button_background"
-        android:text="Logout"
-        android:textSize="14sp"
-        app:backgroundTint="@null"
-
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.98"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.014" />
+    tools:context=".AddFoodInMyList">
 
     <TextView
-        android:id="@+id/grayRectangle"
-        android:layout_width="300dp"
+        android:id="@+id/violetCircleUp2"
+        android:layout_width="350dp"
         android:layout_height="0dp"
-        android:background="@drawable/gray_rectangle"
+        android:background="@drawable/violet_circle"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintDimensionRatio="9:16"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.654" />
+        app:layout_constraintVertical_bias="0.698" />
+
+    <EditText
+        android:id="@+id/list_foods_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#c4c4c4"
+        android:ems="10"
+        android:hint="Type food name here : "
+        android:inputType="textPersonName"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.61" />
 
     <TextView
         android:id="@+id/violetCircleUp"
@@ -51,12 +50,12 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="200dp"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:text="My list"
+        android:text="Adding food           In My Shoping list"
+        android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="28sp"
-        android:textAlignment="textEnd"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -67,7 +66,7 @@
         tools:ignore="TextContrastCheck" />
 
     <Button
-        android:id="@+id/add_list_foods"
+        android:id="@+id/add_list_foods_stage2"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:inputType="textCapWords"
@@ -75,23 +74,11 @@
         android:textSize="14sp"
         app:backgroundTint="@color/our_purple"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.981"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.966"
+        app:layout_constraintVertical_bias="0.976"
         app:shapeAppearanceOverlay="@style/leaf" />
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/shoping_list"
-        android:layout_width="300dp"
-        android:layout_height="500dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

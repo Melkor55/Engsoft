@@ -13,19 +13,18 @@ import android.widget.Toast;
 
 import com.vishnusivadas.advanced_httpurlconnection.PutData;
 
-public class AddFoodInFridge extends AppCompatActivity {
+public class AddFoodInMyList extends AppCompatActivity {
 
-    EditText textInputEditTextFridgeFood;
+    EditText textInputEditTextListFood;
     Button addButton;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState)
-    {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_add_food_in_fridge);
+        setContentView(R.layout.activity_add_food_in_my_list);
 
-        textInputEditTextFridgeFood = (EditText) findViewById(R.id.fridge_foods_field);
-        addButton = (Button) findViewById(R.id.add_fridge_foods_stage2);
+        textInputEditTextListFood = (EditText) findViewById(R.id.list_foods_field);
+        addButton = (Button) findViewById(R.id.add_list_foods_stage2);
 
         addButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -33,7 +32,7 @@ public class AddFoodInFridge extends AppCompatActivity {
             {
                 String  username, aliment;
                 username = Login.getUsername();
-                aliment = String.valueOf(textInputEditTextFridgeFood.getText());
+                aliment = String.valueOf(textInputEditTextListFood.getText());
 
 
                 if( !aliment.equals("") )
@@ -55,7 +54,7 @@ public class AddFoodInFridge extends AppCompatActivity {
                             data[1] = aliment;
 
                             //PutData putData = new PutData("http://192.168.1.102/LikedFoods/addFood.php", "POST", field, data);
-                            PutData putData = new PutData(new Database_URL("/LikedFoods", "/addFoodInFridge.php").getURL(), "POST", field, data);
+                            PutData putData = new PutData(new Database_URL("/LikedFoods", "/addFoodInMyList.php").getURL(), "POST", field, data);
                             if (putData.startPut()) {
                                 if (putData.onComplete()) {
                                     String result = putData.getResult();
@@ -67,7 +66,7 @@ public class AddFoodInFridge extends AppCompatActivity {
 
                                         Toast.makeText(getApplicationContext(),result,Toast.LENGTH_SHORT).show();
 
-                                        Intent intent = new Intent(AddFoodInFridge.this, InMyFridge.class);
+                                        Intent intent = new Intent(AddFoodInMyList.this, MyList.class);
                                         startActivity(intent);
                                         finish();
                                     }
@@ -94,7 +93,5 @@ public class AddFoodInFridge extends AppCompatActivity {
                  */
             }
         });
-
-
     }
 }

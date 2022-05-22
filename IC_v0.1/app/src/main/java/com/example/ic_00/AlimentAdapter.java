@@ -90,6 +90,7 @@ public class AlimentAdapter extends RecyclerView.Adapter<AlimentAdapter.ViewProc
                                     //End ProgressBar (Set visibility to GONE)
                                     if (result.equals("Food Deleted Succefully")) {
                                         System.out.println("Good job!");
+                                        Toast.makeText(context.getApplicationContext(),result,Toast.LENGTH_SHORT).show();
                                     }
                                     else {
                                         System.out.println("Bad job!");
