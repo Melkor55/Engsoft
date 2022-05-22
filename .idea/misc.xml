@@ -12,19 +12,21 @@
         <entry key="..\:/Projects/AndroidStudio/Engsoft/IC_v0.1/app/src/main/res/drawable/register_button_background.xml" value="0.1" />
         <entry key="..\:/Projects/AndroidStudio/Engsoft/IC_v0.1/app/src/main/res/drawable/violet_circle.xml" value="0.1" />
         <entry key="..\:/Projects/AndroidStudio/Engsoft/IC_v0.1/app/src/main/res/layout/activity_add_disliked_foods.xml" value="0.1546875" />
+        <entry key="..\:/Projects/AndroidStudio/Engsoft/IC_v0.1/app/src/main/res/layout/activity_add_food_in_fridge.xml" value="0.36666666666666664" />
         <entry key="..\:/Projects/AndroidStudio/Engsoft/IC_v0.1/app/src/main/res/layout/activity_add_liked_foods.xml" value="0.25416666666666665" />
         <entry key="..\:/Projects/AndroidStudio/Engsoft/IC_v0.1/app/src/main/res/layout/activity_add_recipe.xml" value="0.1" />
         <entry key="..\:/Projects/AndroidStudio/Engsoft/IC_v0.1/app/src/main/res/layout/activity_disliked_foods.xml" value="0.25416666666666665" />
         <entry key="..\:/Projects/AndroidStudio/Engsoft/IC_v0.1/app/src/main/res/layout/activity_home_page.xml" value="0.264" />
         <entry key="..\:/Projects/AndroidStudio/Engsoft/IC_v0.1/app/src/main/res/layout/activity_in_my_fridge.xml" value="0.16927083333333334" />
-        <entry key="..\:/Projects/AndroidStudio/Engsoft/IC_v0.1/app/src/main/res/layout/activity_liked_foods.xml" value="0.136" />
+        <entry key="..\:/Projects/AndroidStudio/Engsoft/IC_v0.1/app/src/main/res/layout/activity_liked_foods.xml" value="0.25" />
         <entry key="..\:/Projects/AndroidStudio/Engsoft/IC_v0.1/app/src/main/res/layout/activity_login.xml" value="0.225" />
         <entry key="..\:/Projects/AndroidStudio/Engsoft/IC_v0.1/app/src/main/res/layout/activity_main.xml" value="0.16" />
         <entry key="..\:/Projects/AndroidStudio/Engsoft/IC_v0.1/app/src/main/res/layout/activity_my_list.xml" value="0.16927083333333334" />
         <entry key="..\:/Projects/AndroidStudio/Engsoft/IC_v0.1/app/src/main/res/layout/activity_register.xml" value="0.264" />
         <entry key="..\:/Projects/AndroidStudio/Engsoft/IC_v0.1/app/src/main/res/layout/activity_what_to_eat.xml" value="0.15520833333333334" />
         <entry key="..\:/Projects/AndroidStudio/Engsoft/IC_v0.1/app/src/main/res/layout/add_but.xml" value="0.11302083333333333" />
-        <entry key="..\:/Projects/AndroidStudio/Engsoft/IC_v0.1/app/src/main/res/layout/liked_food_list.xml" value="0.152" />
+        <entry key="..\:/Projects/AndroidStudio/Engsoft/IC_v0.1/app/src/main/res/layout/add_food_in_fridge.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/AndroidStudio/Engsoft/IC_v0.1/app/src/main/res/layout/liked_food_list.xml" value="0.33" />
         <entry key="..\:/Projects/AndroidStudio/Engsoft/IC_v0.1/app/src/main/res/layout/register_activity.xml" value="0.11302083333333333" />
       </map>
     </option>

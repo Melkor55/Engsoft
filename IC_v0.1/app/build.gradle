@@ -41,6 +41,7 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
     implementation 'com.github.VishnuSivadasVS:Advanced-HttpURLConnection:1.2'
+    implementation 'com.github.evrencoskun:TableView:v0.8.9.4'
 
 }
 

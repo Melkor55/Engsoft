@@ -2,11 +2,13 @@ package com.example.ic_00;
 
 public class Aliment {
     private int id;
+    private String username;
     private String aliment;
 
 
-    public Aliment(int id, String aliment) {
+    public Aliment(int id, String username, String aliment) {
         this.id = id;
+        this.username = username;
         this.aliment = aliment;
 
     }
@@ -31,7 +33,16 @@ public class Aliment {
     public String toString() {
         return "Aliment{" +
                 "id='" + id + '\'' +
+                "username='" + username + '\'' +
                 ", aliment='" + aliment + '\'' +
                 '}';
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
     }
 }

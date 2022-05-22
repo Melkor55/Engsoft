@@ -23,7 +23,6 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class LikedFoods extends AppCompatActivity
 {
@@ -32,16 +31,14 @@ public class LikedFoods extends AppCompatActivity
     private FloatingActionButton AddButton2;
 
     private Spinner spinner;
-    private ArrayList<Aliment> students;
+    private ArrayList<Aliment> aliments;
     private JSONArray result;
     private TextView textViewName;
     private TextView textViewCourse;
     private TextView textViewSession;
 
     RecyclerView recyclerView;
-
     RecyclerView.LayoutManager recyclerViewlayoutManager;
-
     RecyclerView.Adapter recyclerViewadapter;
 
     @Override
@@ -52,7 +49,6 @@ public class LikedFoods extends AppCompatActivity
 
         recyclerView = (RecyclerView) findViewById(R.id.liked_foods_list);
         recyclerViewlayoutManager = new LinearLayoutManager(this);
-
         recyclerView.setLayoutManager(recyclerViewlayoutManager);
 
         /*
@@ -74,7 +70,7 @@ public class LikedFoods extends AppCompatActivity
         });
         */
 
-        students = new ArrayList<>();
+        aliments = new ArrayList<>();
         /*spinner = (Spinner) findViewById(R.id.spinner);
         spinner.setOnItemSelectedListener(this);
         textViewName = (TextView) findViewById(R.id.textViewName);
@@ -126,7 +122,7 @@ public class LikedFoods extends AppCompatActivity
                         try {
                             j = new JSONObject(response);
                             result = j.getJSONArray(Config.JSON_ARRAY);
-                            getStudents(result);
+                            getAliments(result);
 
                         } catch (JSONException e) {
                             e.printStackTrace();
@@ -144,13 +140,15 @@ public class LikedFoods extends AppCompatActivity
         requestQueue.add(stringRequest);
     }
 
-    private void getStudents(JSONArray j){
+    private void getAliments(JSONArray j){
         for(int i=0;i<j.length();i++){
             try {
                 JSONObject json = j.getJSONObject(i);
                 //students.add(json.getString(Config.TAG_ID));
-                students.add(new Aliment(
+                if (json.getString("username").equals(Login.getUsername()))
+                aliments.add(new Aliment(
                         json.getInt("id"),
+                        json.getString("username"),
                         json.getString("aliment")
                 ));
                 //System.out.println("no no no");
@@ -158,10 +156,10 @@ public class LikedFoods extends AppCompatActivity
                 e.printStackTrace();
             }
         }
-        students.toString();
-        System.out.println(students);
+        aliments.toString();
+        System.out.println(aliments);
         //spinner.setAdapter(new ArrayAdapter<String>(LikedFoods.this, android.R.layout.simple_spinner_dropdown_item, students));
-        recyclerViewadapter = new AlimentAdapter(this, students);
+        recyclerViewadapter = new AlimentAdapter(this, aliments, "liked_foods");
 
         recyclerView.setAdapter(recyclerViewadapter);
     }

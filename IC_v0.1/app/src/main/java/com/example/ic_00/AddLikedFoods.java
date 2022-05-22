@@ -33,7 +33,8 @@ public class AddLikedFoods extends AppCompatActivity {
         @Override
         public void onClick(View view)
         {
-            String aliment;
+            String  username, aliment;
+            username = Login.getUsername();
             aliment = String.valueOf(textInputEditTextLikedFood.getText());
 
 
@@ -45,13 +46,15 @@ public class AddLikedFoods extends AppCompatActivity {
                     public void run() {
                         //Starting Write and Read data with URL
                         //Creating array for parameters
-                        String[] field = new String[1];
-                        field[0] = "aliment";
+                        String[] field = new String[2];
+                        field[0] = "username";
+                        field[1] = "aliment";
 
                         //Creating array for data
-                        String[] data = new String[1];
+                        String[] data = new String[2];
 
-                        data[0] = aliment;
+                        data[0] = username;
+                        data[1] = aliment;
 
                         //  url : http://current_ip_adress(ip_config)/the_folder_where_signup.php_is_stored/signup.php
                         String URL = "http://" +IPAdress.getMyIP()+ "/LoginRegister/signup.php";

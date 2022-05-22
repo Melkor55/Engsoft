@@ -11,10 +11,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IC_00">
         <activity
+            android:name=".AddFoodInFridge"
+            android:exported="false" />
+        <activity
             android:name=".AddRecipe"
             android:exported="false"
             android:parentActivityName=".LikedFoods" />
-
         <activity
             android:name=".AddDislikedFoods"
             android:exported="false"
