@@ -31,7 +31,8 @@ public class AddDislikedFoods extends AppCompatActivity {
             @Override
             public void onClick(View view)
             {
-                String  username, aliment;
+                String  username, aliment, table;
+                table = "disliked_foods";
                 username = Login.getUsername();
                 aliment = String.valueOf(textInputEditTextDisLikedFood.getText());
 
@@ -44,21 +45,22 @@ public class AddDislikedFoods extends AppCompatActivity {
                         public void run() {
                             //Starting Write and Read data with URL
                             //Creating array for parameters
-                            String[] field = new String[2];
-                            field[0] = "username";
-                            field[1] = "aliment";
+                            String[] field = new String[3];
+                            field[0] = "table";
+                            field[1] = "username";
+                            field[2] = "aliment";
 
                             //Creating array for data
-                            String[] data = new String[2];
-
-                            data[0] = username;
-                            data[1] = aliment;
+                            String[] data = new String[3];
+                            data[0] = table;
+                            data[1] = username;
+                            data[2] = aliment;
 
                             //  url : http://current_ip_adress(ip_config)/the_folder_where_signup.php_is_stored/signup.php
                             String URL = "http://" +IPAdress.getMyIP()+ "/LoginRegister/signup.php";
                             System.out.println(">>>"+URL);
                             //PutData putData = new PutData("http://192.168.1.102/LikedFoods/addDislikedFood.php", "POST", field, data);
-                            PutData putData = new PutData(new Database_URL("/LikedFoods", "/addDislikedFood.php").getURL(), "POST", field, data);
+                            PutData putData = new PutData(new Database_URL("/LikedFoods", "/addFood.php").getURL(), "POST", field, data);
                             if (putData.startPut()) {
                                 if (putData.onComplete()) {
                                     String result = putData.getResult();

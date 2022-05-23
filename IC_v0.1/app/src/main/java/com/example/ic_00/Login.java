@@ -95,6 +95,7 @@ public class Login extends AppCompatActivity {
                             String URL = header + ip + folder + phpFile ;
                             */
                             //  url : http://current_ip_adress(ip_config)/the_folder_where_signup.php_is_stored/signup.php
+                            System.out.println(new Database_URL("/LoginRegister","/login.php").getURL());
                             PutData putData = new PutData(new Database_URL("/LoginRegister","/login.php").getURL(), "POST", field, data);
                             if (putData.startPut()) {
                                 if (putData.onComplete()) {

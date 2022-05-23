@@ -1,15 +1,22 @@
 package com.example.ic_00;
 
+import java.net.SocketException;
+import java.net.UnknownHostException;
+
 public class Database_URL
 {
     private String header = "http://" ;
-    private String ip = getIP.getIp();
+    private String ip;
+
+    {
+        ip = getIP.getIp();
+    }
+
     private String folder ;
     private String phpFile ;
     private String URL;
 
-    public Database_URL(String folder, String phpFile)
-    {
+    public Database_URL(String folder, String phpFile) {
         this.folder = folder;
         this.phpFile = phpFile;
         this.URL = header + ip + folder + phpFile;

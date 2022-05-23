@@ -31,7 +31,8 @@ public class AddFoodInFridge extends AppCompatActivity {
             @Override
             public void onClick(View view)
             {
-                String  username, aliment;
+                String  username, aliment, table ;
+                table = "my_fridge";
                 username = Login.getUsername();
                 aliment = String.valueOf(textInputEditTextFridgeFood.getText());
 
@@ -44,18 +45,19 @@ public class AddFoodInFridge extends AppCompatActivity {
                         public void run() {
                             //Starting Write and Read data with URL
                             //Creating array for parameters
-                            String[] field = new String[2];
-                            field[0] = "username";
-                            field[1] = "aliment";
+                            String[] field = new String[3];
+                            field[0] = "table";
+                            field[1] = "username";
+                            field[2] = "aliment";
 
                             //Creating array for data
-                            String[] data = new String[2];
-
-                            data[0] = username;
-                            data[1] = aliment;
+                            String[] data = new String[3];
+                            data[0] = table;
+                            data[1] = username;
+                            data[2] = aliment;
 
                             //PutData putData = new PutData("http://192.168.1.102/LikedFoods/addFood.php", "POST", field, data);
-                            PutData putData = new PutData(new Database_URL("/LikedFoods", "/addFoodInFridge.php").getURL(), "POST", field, data);
+                            PutData putData = new PutData(new Database_URL("/LikedFoods", "/addFood.php").getURL(), "POST", field, data);
                             if (putData.startPut()) {
                                 if (putData.onComplete()) {
                                     String result = putData.getResult();

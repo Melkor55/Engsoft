@@ -69,13 +69,13 @@ public class AddRecipe extends AppCompatActivity {
                                     String result = putData.getResult();
                                     System.out.println("--->" + result);
                                     //End ProgressBar (Set visibility to GONE)
-                                    if (result.equals("Recipe Added Successfully")) {
+                                    if (result.equals("Recipe Added Successffuly")) {
                                         System.out.println("Good job!");
                                         //Intent intent = new Intent(getApplicationContext(),)
 
                                         Toast.makeText(getApplicationContext(),result,Toast.LENGTH_SHORT).show();
 
-                                        Intent intent = new Intent(AddRecipe.this, LikedFoods.class);
+                                        Intent intent = new Intent(AddRecipe.this, HomePage.class);
                                         startActivity(intent);
                                         finish();
                                     }

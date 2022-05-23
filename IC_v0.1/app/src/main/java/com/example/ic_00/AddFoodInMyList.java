@@ -30,7 +30,8 @@ public class AddFoodInMyList extends AppCompatActivity {
             @Override
             public void onClick(View view)
             {
-                String  username, aliment;
+                String  username, aliment, table ;
+                table = "shoping_list";
                 username = Login.getUsername();
                 aliment = String.valueOf(textInputEditTextListFood.getText());
 

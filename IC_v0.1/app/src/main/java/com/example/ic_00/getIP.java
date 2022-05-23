@@ -1,14 +1,15 @@
 package com.example.ic_00;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.net.DatagramSocket;
+import java.net.InetAddress;
+import java.net.NetworkInterface;
+import java.net.SocketException;
+import java.net.UnknownHostException;
+import java.util.Enumeration;
 
 public class getIP {
-    public static String ip = "192.168.1.8";
-
-    public static String getIp() {
+    public static String ip = "192.168.1.103";
+    public static String getIp(){
         return ip;
     }
 /*

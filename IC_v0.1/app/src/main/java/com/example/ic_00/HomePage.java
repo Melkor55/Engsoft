@@ -14,6 +14,8 @@ public class HomePage extends AppCompatActivity {
     private Button InMyFridgeButton;
     private Button WhatToEatButton;
     private Button MyListButton;
+    private Button AddRecipeButton;
+    private Button LogoutButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,6 +68,26 @@ public class HomePage extends AppCompatActivity {
             public void onClick(View view)
             {
                 Intent intent = new Intent(HomePage.this, MyList.class);
+                startActivity(intent);
+            }
+        });
+
+        AddRecipeButton = (Button) findViewById(R.id.addRecipe_button)  ;
+        AddRecipeButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view)
+            {
+                Intent intent = new Intent(HomePage.this, AddRecipe.class);
+                startActivity(intent);
+            }
+        });
+
+        LogoutButton = (Button) findViewById(R.id.logout_button)  ;
+        LogoutButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view)
+            {
+                Intent intent = new Intent(HomePage.this, MainActivity.class);
                 startActivity(intent);
             }
         });
