@@ -8,7 +8,7 @@ import java.net.UnknownHostException;
 import java.util.Enumeration;
 
 public class getIP {
-    public static String ip = "192.168.1.103";
+    public static String ip = "192.168.1.105";
     public static String getIp(){
         return ip;
     }
