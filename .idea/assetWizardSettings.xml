@@ -23,7 +23,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/close/baseline_close_24.xml" />
+                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/no_food/baseline_no_food_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -33,8 +33,8 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="color" value="d91919" />
-                            <entry key="outputName" value="ic_baseline_close_24" />
+                            <entry key="color" value="3c3f41" />
+                            <entry key="outputName" value="ic_baseline_no_food_24" />
                             <entry key="sourceFile" value="E:\Projects\AndroidStudio\Engsoft" />
                           </map>
                         </option>
