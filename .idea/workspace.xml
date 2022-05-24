@@ -9,26 +9,43 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36e2b581-0c17-4e97-892c-f9a19b69bece" name="Default Changelist" comment="Adding functionalities for the shopping list">
-      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/Recipe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/RecipeAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/recipe_list.xml" afterDir="false" />
+    <list default="true" id="36e2b581-0c17-4e97-892c-f9a19b69bece" name="Default Changelist" comment="Adding functionalities for the recipes database and what to eat activity">
+      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/drawable-v24/engsoft_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/drawable-v24/engsoft_logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/drawable-v24/engsoft_logo2_vector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/drawable-v24/food1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/drawable-v24/fridge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/drawable-v24/fridge1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/drawable-v24/healthy_food1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/drawable-v24/no1_food1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/drawable-v24/no_food1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/drawable-v24/padlock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/drawable-v24/padlock1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/drawable-v24/padlock1_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/drawable-v24/padlock_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/drawable-v24/recipe_book1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/drawable-v24/recipe_book2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/drawable-v24/restaurant1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/drawable/ic_baseline_access_time_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/drawable/ic_baseline_lock_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/drawable/ic_baseline_mail_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/drawable/ic_baseline_no_food_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/drawable/ic_baseline_person_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/drawable/ic_baseline_person_outline_24.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Engsoft - Copy" beforeDir="false" afterPath="$PROJECT_DIR$/../Engsoft - Copy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/AddDislikedFoods.java" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/AddDislikedFoods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/AddFoodInFridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/AddFoodInFridge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/AddFoodInMyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/AddFoodInMyList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/AddLikedFoods.java" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/AddLikedFoods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/AddRecipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/AddRecipe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/Database_URL.java" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/Database_URL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/WhatToEat.java" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/WhatToEat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/getIP.java" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/java/com/example/ic_00/getIP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_home_page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_home_page.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_what_to_eat.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_what_to_eat.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_add_disliked_foods.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_add_disliked_foods.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_add_food_in_fridge.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_add_food_in_fridge.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_add_food_in_my_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_add_food_in_my_list.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_add_liked_foods.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_add_liked_foods.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_add_recipe.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_add_recipe.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/layout/activity_register.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IC_v0.1/app/src/main/res/values/strings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Engsoft_1" beforeDir="false" afterPath="$PROJECT_DIR$/../Engsoft_1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyApplication" beforeDir="false" afterPath="$PROJECT_DIR$/../MyApplication" afterDir="false" />
     </list>
@@ -102,7 +119,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/IC_v0.1/app/src/main/res/drawable-v24" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/IC_v0.1/app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/IC_v0.1/app/src/main/res/drawable-v24" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -119,9 +136,10 @@
       <recent name="com.example.ic_00" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Projects\AndroidStudio\Engsoft\IC_v0.1\app\src\main\res\drawable-v24" />
+      <recent name="E:\Projects\AndroidStudio\Engsoft\IC_v0.1\app\src\main\res\layout" />
       <recent name="E:\Projects\AndroidStudio\Engsoft\IC_v0.1\app" />
       <recent name="E:\Projects\AndroidStudio\Engsoft\IC_v0.1\app\src\main\java\com\example\ic_00" />
-      <recent name="E:\Projects\AndroidStudio\Engsoft\IC_v0.1\app\src\main\res\drawable-v24" />
     </key>
     <key name="android.template.-520027725">
       <recent name="com.example.ic_00" />
@@ -306,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653189118574</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Adding functionalities for the recipes database and what to eat activity">
+      <created>1653272721192</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1653272721192</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -345,6 +370,7 @@
     <MESSAGE value="Adding more database functions 2" />
     <MESSAGE value="Adding functionalities for dislikedFoods page and inMyFridge" />
     <MESSAGE value="Adding functionalities for the shopping list" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding functionalities for the shopping list" />
+    <MESSAGE value="Adding functionalities for the recipes database and what to eat activity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding functionalities for the recipes database and what to eat activity" />
   </component>
 </project>
