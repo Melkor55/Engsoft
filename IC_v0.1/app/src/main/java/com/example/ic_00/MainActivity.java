@@ -1,6 +1,7 @@
 package com.example.ic_00;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -18,7 +19,7 @@ import java.util.Enumeration;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button LoginButton,RegisterButton;
+    private Button LoginButton,RegisterButton,DarkMode;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
         System.out.println(IPAdress.getMyIP());
         RegisterButton = (Button) findViewById(R.id.registerButton);
         LoginButton = (Button) findViewById(R.id.loginButton);
+        DarkMode = (Button) findViewById(R.id.dark_light);
 
         RegisterButton.setOnClickListener(new View.OnClickListener()
         {
@@ -69,7 +71,23 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
+        DarkMode.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View view)
+            {
+            //if(isNightModeOn())
+            if(AppCompatDelegate.getDefaultNightMode() == AppCompatDelegate.MODE_NIGHT_YES)
+            {
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+                //DarkMode.text = "Enable Dark Mode";
+            } else
+            {
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+                //DarkMode.text = "Disable Dark Mode";
+            }
+        }
+        });
     }
 
     public static String getLocalIpAddress() {

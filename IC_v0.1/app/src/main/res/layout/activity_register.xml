@@ -13,7 +13,7 @@
         android:background="@drawable/violet_circle"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio="1:1"
-        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -133,6 +133,7 @@
         android:drawableEnd="@drawable/padlock1_outline"
         android:paddingHorizontal="10dp"/>
 
+
     <Button
         android:id="@+id/register_button_stage2"
         android:layout_width="200dp"
@@ -147,23 +148,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.737" />
-
-    <Button
-        android:id="@+id/likedFoods_button"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:background="@drawable/login_button_backgrounds"
-        app:backgroundTint="@null"
-        android:text="LikedFoods"
-        android:textSize="20sp"
-
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.949" />
+        app:layout_constraintVertical_bias="0.802" />
 
     <ProgressBar
         android:id="@+id/register_progressBar"
