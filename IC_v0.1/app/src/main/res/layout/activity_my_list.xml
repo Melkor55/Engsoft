@@ -85,13 +85,13 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/shoping_list"
         android:layout_width="300dp"
-        android:layout_height="500dp"
+        android:layout_height="400dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.794" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

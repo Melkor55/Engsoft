@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         System.out.println(IPAdress.getMyIP());
         RegisterButton = (Button) findViewById(R.id.registerButton);
         LoginButton = (Button) findViewById(R.id.loginButton);
-        DarkMode = (ImageButton) findViewById(R.id.dark_light);
+
 
         RegisterButton.setOnClickListener(new View.OnClickListener()
         {
@@ -74,25 +74,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        DarkMode.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View view)
-            {
-            //if(isNightModeOn())
-            if(AppCompatDelegate.getDefaultNightMode() == AppCompatDelegate.MODE_NIGHT_YES)
-            {
-                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
-                DarkMode.setBackgroundResource(R.drawable.light_bulb_on);
-                //DarkMode.text = "Enable Dark Mode";
-            } else
-            {
-                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
-                DarkMode.setImageResource(R.drawable.light_bulb_off);
-                //DarkMode.text = "Disable Dark Mode";
-            }
-        }
-        });
+
     }
 
     public static String getLocalIpAddress() {

@@ -43,6 +43,7 @@ dependencies {
     implementation 'com.github.VishnuSivadasVS:Advanced-HttpURLConnection:1.2'
     implementation 'com.github.evrencoskun:TableView:v0.8.9.4'
 
+
 }
 
 allprojects {

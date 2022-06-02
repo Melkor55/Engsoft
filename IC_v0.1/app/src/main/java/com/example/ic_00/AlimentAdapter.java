@@ -10,6 +10,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -22,6 +23,7 @@ public class AlimentAdapter extends RecyclerView.Adapter<AlimentAdapter.ViewProc
     Context context;
     private String table;
     private ArrayList<Aliment> aliments; //memanggil modelData
+    private ItemClickListener mClickListener;
 
     public AlimentAdapter(Context context, ArrayList<Aliment> aliments, String table) {
         this.context = context;
@@ -118,7 +120,7 @@ public class AlimentAdapter extends RecyclerView.Adapter<AlimentAdapter.ViewProc
         return aliments.size();
     }
 
-    public class ViewProcessHolder extends RecyclerView.ViewHolder {
+    public class ViewProcessHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
 
         TextView aliment,id;
         FloatingActionButton delete;
@@ -130,6 +132,22 @@ public class AlimentAdapter extends RecyclerView.Adapter<AlimentAdapter.ViewProc
             aliment = (TextView) itemView.findViewById(R.id.food_list_aliment);
             delete = (FloatingActionButton) itemView.findViewById(R.id.remove_liked_food);
 
+            itemView.setOnClickListener(this);
         }
+
+        @Override
+        public void onClick(View view) {
+            if (mClickListener != null) mClickListener.onItemClick(view, getAdapterPosition());
+        }
+    }
+
+    // allows clicks events to be caught
+    void setClickListener(ItemClickListener itemClickListener) {
+        this.mClickListener = itemClickListener;
+    }
+
+    // parent activity will implement this method to respond to click events
+    public interface ItemClickListener {
+        void onItemClick(View view, int position);
     }
 }
