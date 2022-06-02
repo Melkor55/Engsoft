@@ -8,6 +8,8 @@ import android.os.Bundle;
 import android.os.StrictMode;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
+
 import java.net.DatagramSocket;
 import java.net.Inet4Address;
 import java.net.InetAddress;
@@ -19,7 +21,8 @@ import java.util.Enumeration;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button LoginButton,RegisterButton,DarkMode;
+    private Button LoginButton,RegisterButton;
+    private ImageButton DarkMode;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         System.out.println(IPAdress.getMyIP());
         RegisterButton = (Button) findViewById(R.id.registerButton);
         LoginButton = (Button) findViewById(R.id.loginButton);
-        DarkMode = (Button) findViewById(R.id.dark_light);
+        DarkMode = (ImageButton) findViewById(R.id.dark_light);
 
         RegisterButton.setOnClickListener(new View.OnClickListener()
         {
@@ -80,10 +83,12 @@ public class MainActivity extends AppCompatActivity {
             if(AppCompatDelegate.getDefaultNightMode() == AppCompatDelegate.MODE_NIGHT_YES)
             {
                 AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+                DarkMode.setBackgroundResource(R.drawable.light_bulb_on);
                 //DarkMode.text = "Enable Dark Mode";
             } else
             {
                 AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+                DarkMode.setImageResource(R.drawable.light_bulb_off);
                 //DarkMode.text = "Disable Dark Mode";
             }
         }

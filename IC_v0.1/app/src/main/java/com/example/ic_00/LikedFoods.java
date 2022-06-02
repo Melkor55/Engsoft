@@ -95,22 +95,6 @@ public class LikedFoods extends AppCompatActivity
             }
         });
 
-
-
-        AddButton2 = findViewById(R.id.addRecipe);
-        AddButton2.setOnClickListener(new View.OnClickListener()
-        {
-
-            @Override
-            public void onClick(View view)
-            {
-
-
-                Intent intent = new Intent(LikedFoods.this, AddRecipe.class);
-                startActivity(intent);
-            }
-        });
-
     }
     private void getData(){
         //StringRequest stringRequest = new StringRequest("http://192.168.1.102/LikedFoods/getFood.php",

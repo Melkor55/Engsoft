@@ -19,4 +19,7 @@
         <item name="cornerSizeBottomRight">70%</item>
         <!--<item name="cornerFamilyBottomRight">cut</item>-->
     </style>
+    <style name="light_bulb">
+        <item name="android:src">@drawable/light_bulb_on</item>
+    </style>
 </resources>

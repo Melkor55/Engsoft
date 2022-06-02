@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.ic_00">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -7,70 +8,83 @@
         android:allowBackup="true"
         android:icon="@drawable/engsoft_logo2_vector"
         android:label="@string/app_name"
-
         android:usesCleartextTraffic="true"
         android:supportsRtl="true"
         android:theme="@style/Theme.IC_00">
         <activity
             android:name=".AddFoodInMyList"
             android:exported="false"
-            android:label="Add Food In My List"/>
+            android:label="Add Food In My List"
+            android:screenOrientation="portrait"/>
 
         <activity
             android:name=".AddFoodInFridge"
             android:exported="false"
-            android:label="Add Food In Fridge List"/>
+            android:label="Add Food In Fridge List"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".AddRecipe"
             android:exported="false"
             android:parentActivityName=".LikedFoods"
-            android:label="Add Recipe"/>
+            android:label="Add Recipe"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".AddDislikedFoods"
             android:exported="false"
             android:parentActivityName=".DislikedFoods"
-            android:label="Add Disliked Food"/>
+            android:label="Add Disliked Food"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".AddLikedFoods"
             android:exported="false"
             android:parentActivityName=".LikedFoods"
-            android:label="Add Liked Food"/>
+            android:label="Add Liked Food"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".Login"
             android:exported="false"
             android:parentActivityName=".MainActivity"
-            android:label="Login"/>
+            android:label="Login"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".MyList"
             android:exported="false"
             android:parentActivityName=".HomePage"
-            android:label="Shopping list"/>
+            android:label="Shopping list"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".WhatToEat"
             android:exported="false"
             android:parentActivityName=".HomePage"
-            android:label="Meal suggestions"/>
+            android:label="Meal suggestions"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".InMyFridge"
             android:exported="false"
             android:parentActivityName=".HomePage"
-            android:label="My Fridge" />
+            android:label="My Fridge"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".HomePage"
             android:exported="false"
-            android:label="Home"/>
+            android:label="Home"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".DislikedFoods"
             android:exported="false"
             android:parentActivityName=".HomePage"
-            android:label="Disliked Foods"/>
+            android:label="Disliked Foods"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".LikedFoods"
             android:exported="false"
             android:parentActivityName=".HomePage"
-            android:label="Liked Foods"/>
+            android:label="Liked Foods"
+            android:screenOrientation="portrait"/>
+
         <activity
             android:name=".Register"
+            android:screenOrientation="portrait"
             android:exported="false"
             android:parentActivityName=".MainActivity"
             android:label="Register">
@@ -80,6 +94,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
+            android:screenOrientation="portrait"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
